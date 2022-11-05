@@ -1,0 +1,4 @@
+mindspore>=1.8.1
+tokenizers>=0.12.1
+numpy
+faiss
