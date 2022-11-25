@@ -227,7 +227,7 @@ class WordpieceTokenizer(object):
                 output_tokens.append(self.unk_token)
             else:
                 output_tokens.extend(sub_tokens)
-            return output_tokens
+        return output_tokens
 
 
 def _is_whitespace(char):
